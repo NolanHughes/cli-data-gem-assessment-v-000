@@ -19,15 +19,15 @@ class NolanHughesCliApp::CLI
   def menu
     puts "Enter the number or name of the brewery you'd like more info on or type exit:"
     input = gets.strip.downcase
-    # while input != "exit"
-    # 
-    #   case input
-    #   when "1"
-    #     puts "More info on brewery 1..."
-    #   when "2"
-    #     puts "More info on brewery 2..."
-    #   end
-    # end
+    while input != "exit"
+
+      case input
+      when "1"
+        puts "More info on brewery 1..."
+      when "2"
+        puts "More info on brewery 2..."
+      end
+    end
   end
 
   def goodbye
